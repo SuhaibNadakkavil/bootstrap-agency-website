@@ -1,0 +1,167 @@
+/* GENERAL */
+body {
+    margin-top: 80px;
+    font-family: 'Inter', sans-serif;
+}
+
+/* NAVBAR */
+.nav-link {
+    font-weight: 500;
+}
+.nav-link:hover {
+    color: #1A73E8;
+}
+
+/* HERO */
+.hero-section {
+    height: 90vh;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.7)),
+                url('../img/hero.png') center/cover no-repeat;
+    color: white;
+}
+
+/* SERVICES */
+.service-card {
+    transition: 0.3s;
+    background: white;
+}
+.service-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 8px 18px rgba(0,0,0,0.15);
+}
+
+.icon-circle {
+    width: 60px;
+    height: 60px;
+    background: #1A73E8;
+    color: white;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 26px;
+}
+
+/* PROJECTS */
+.project-img {
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+    border-bottom: 1px solid #eee;
+}
+
+/* TESTIMONIAL */
+.testimonial-card {
+    max-width: 550px;
+}
+
+/* CTA */
+.contact-cta {
+    background: #1A73E8;
+}
+
+/* FOOTER */
+footer {
+    font-size: 14px;
+}
+/* SUBPAGE HERO */
+.subpage-hero {
+    height: 45vh;
+    background-color: black;
+}
+
+/* STATS */
+.stats-box {
+    background: white;
+    transition: 0.3s;
+}
+.stats-box:hover {
+    transform: translateY(-6px);
+}
+
+/* PROCESS */
+.process-card:hover {
+    transform: translateY(-6px);
+    transition: 0.3s;
+}
+
+/* TEAM */
+.team-img {
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+/* SERVICE PAGE IMAGES */
+.service-details-img,
+img.img-fluid {
+    border-radius: 14px;
+    object-fit: cover;
+}
+
+/* PROCESS HOVER */
+.process-card:hover {
+    transform: translateY(-6px);
+    transition: 0.3s;
+}
+
+/* FAQ */
+.accordion-button {
+    font-weight: 500;
+}
+/* Projects page specific */
+.project-card .card-body { padding-bottom: 0.5rem; }
+.project-card .card-footer { padding-left: 1rem; padding-right: 1rem; }
+
+/* Ensure images cover the card area and keep visual ratio */
+.object-cover {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* Use Bootstrap ratio helpers for consistent aspect ratio (4:3 used above) */
+/* Card hover lift */
+.project-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 30px rgba(18, 38, 63, 0.12);
+  transition: transform .28s ease, box-shadow .28s ease;
+}
+
+/* Small screens: smaller badges and spacing adjustments */
+@media (max-width: 575.98px) {
+  .project-card .card-footer { padding-bottom: 0.75rem; font-size: 13px; }
+  .project-card .card-title { font-size: 1rem; }
+}
+/* Contact Cards */
+.contact-card {
+    transition: 0.3s;
+    background: white;
+}
+.contact-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 28px rgba(0,0,0,0.1);
+}
+
+/* Map container */
+.map-container iframe {
+    width: 100%;
+    height: 380px;
+    border-radius: 12px;
+}
+
+/* Social Icons */
+.social-icon {
+    font-size: 28px;
+    padding: 12px 16px;
+    color: #1A73E8;
+    border-radius: 50%;
+    background: #e9f1ff;
+    transition: 0.3s;
+}
+.social-icon:hover {
+    background: #1A73E8;
+    color: white;
+}
